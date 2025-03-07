@@ -1,0 +1,24 @@
+<div class="mtavari">
+
+<form [formGroup]="formInfo" (ngSubmit)="register()">
+    <h1>Reservation</h1>
+    <div class="area">
+        <label for="">check in</label>
+        <input type="date" formControlName="checkIn">
+    </div>
+    <div class="area">
+        <label for="">check out</label>
+        <input type="date" formControlName="checkOut">
+    </div>
+    <div class="area">
+        <label for="">name</label>
+        <input type="text" formControlName="name">
+    </div>
+    <div class="area">
+        <label for="">number</label>
+        <input type="text" formControlName="number">
+    </div>
+    <button [disabled]="formInfo.invalid" type="submit">Register</button>
+</form>
+
+</div>

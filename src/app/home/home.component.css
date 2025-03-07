@@ -1,0 +1,33 @@
+form{ 
+    width: 250px;
+    height: 400px;
+    box-shadow: 3px 3px 15px 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.mtavari{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    height: 30px;
+}
+
+.ng-invalid{
+    border: 1px solid red;
+}
+
+input.ng-invalid{
+    border: 1px solid red;
+}
